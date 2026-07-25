@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hướng dẫn - Shop Wizard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0a0a0a;color:#fff}
+header{background:linear-gradient(135deg,#1a0033,#4a0080);padding:20px;text-align:center;border-bottom:3px solid #ff00ff}
+header h1{font-size:36px;color:#ff00ff}
+header h1 span{color:#fff}
+nav{background:#111;padding:15px;text-align:center;border-bottom:1px solid #333}
+nav a{color:#fff;text-decoration:none;padding:12px 25px;margin:0 5px;border-radius:8px;transition:0.3s;font-weight:bold}
+nav a:hover{background:#ff00ff;color:#000}
+nav a.active{background:#ff00ff;color:#000}
+.container{max-width:900px;margin:0 auto;padding:20px}
+.guide-box{background:#1a1a1a;border-radius:15px;padding:30px;margin:20px 0;border:1px solid #333}
+.guide-box h2{color:#ff00ff;font-size:28px;margin-bottom:15px}
+.guide-box h3{color:#ff00ff;margin:20px 0 10px}
+.guide-box p{color:#ddd;line-height:1.8;margin:10px 0}
+.guide-box ol{padding-left:25px;color:#ddd;line-height:2}
+.guide-box ol li{margin:5px 0}
+.step{background:#0a0a0a;padding:20px;border-radius:10px;margin:15px 0;border-left:4px solid #ff00ff}
+.step .num{color:#ff00ff;font-weight:bold;font-size:18px}
+.download-btn{display:inline-block;padding:15px 40px;background:#ff00ff;color:#000;text-decoration:none;border-radius:50px;font-weight:bold;font-size:18px;transition:0.3s;margin:10px 0}
+.download-btn:hover{background:#cc00cc;transform:scale(1.05)}
+.warning{background:#1a0033;border:1px solid #ff00ff;border-radius:10px;padding:15px;margin:15px 0;color:#ffcc00}
+.warning strong{color:#ff00ff}
+footer{background:#111;padding:30px;text-align:center;margin-top:40px;border-top:1px solid #333}
+footer a{color:#ff00ff;text-decoration:none;margin:0 15px}
+.back{display:inline-block;color:#ff00ff;text-decoration:none;margin:10px 0}
+.back:hover{text-decoration:underline}
+@media(max-width:768px){nav a{display:block;padding:10px;margin:5px 0}}
+</style>
+</head>
+<body>
+<header>
+<h1>📖 SHOP <span>WIZARD</span></h1>
+<p>🏆 Hướng dẫn sử dụng file Free Fire</p>
+</header>
+<nav>
+<a href="index.html">🏠 Trang chủ</a>
+<a href="products.html">📦 Sản phẩm</a>
+<a href="guide.html" class="active">📖 Hướng dẫn</a>
+<a href="contact.html">📱 Liên hệ</a>
+</nav>
+<div class="container">
+<a href="index.html" class="back">← Quay lại trang chủ</a>
+
+<div class="guide-box">
+<h2>📌 HƯỚNG DẪN SỬ DỤNG</h2>
+
+<div class="step">
+<div class="num">BƯỚC 1: CHỌN SẢN PHẨM</div>
+<p>📱 Truy cập trang <a href="products.html" style="color:#ff00ff;">Sản phẩm</a> và chọn gói phù hợp:</p>
+<ul style="color:#ddd;padding-left:20px;line-height:2;">
+<li>📱 File Android: 50k-80k tùy chức năng</li>
+<li>🍎 File IOS: 60k-100k tùy chức năng</li>
+<li>🎓 Học làm file: 250k bao gồm form+code+cách làm+cách cài</li>
+</ul>
+</div>
+
+<div class="step">
+<div class="num">BƯỚC 2: ĐẶT HÀNG VÀ THANH TOÁN</div>
+<p>💳 Nhấn nút "Đặt Mua" trên sản phẩm bạn chọn. Điền thông tin và thanh toán qua:</p>
+<ul style="color:#ddd;padding-left:20px;line-height:2;">
+<li>🏦 Ngân hàng: Vietcombank, Techcombank, MB Bank</li>
+<li>💜 ZaloPay: Quét mã QR hoặc chuyển khoản</li>
+<li>📱 Thẻ cào: Viettel, Vinaphone, Mobifone</li>
+</ul>
+</div>
+
+<div class="step">
+<div class="num">BƯỚC 3: NHẬN FILE</div>
+<p>📦 Sau khi thanh toán thành công, chúng tôi sẽ gửi link tải file qua Zalo hoặc Facebook:</p>
+<ul style="color:#ddd;padding-left:20px;line-height:2;">
+<li>📱 Zalo: <strong style="color:#ff00ff;">0378607189</strong></li>
+<li>📘 Facebook: <strong style="color:#ff00ff;">Trung Ta</strong></li>
+</ul>
+<br>
+<a href="#" class="download-btn">⬇️ TẢI FILE TẠI ĐÂY</a>
+<p style="color:#666;font-size:14px;">(Link tải sẽ được gửi sau khi thanh toán)</p>
+</div>
+
+<div class="step">
+<div class="num">BƯỚC 4: CÀI ĐẶT FILE</div>
+<p>🔧 Cách cài đặt file theo từng nền tảng:</p>
+
+<h3 style="color:#ff00ff;margin-top:15px;">📱 CÀI FILE ANDROID</h3>
+<ol>
+<li>Mở file manager (Root Explorer, ES File Explorer...)</li>
+<li>Truy cập thư mục: <strong style="color:#ff00ff;">/data/data/com.dts.freefireth/files/</strong></li>
+<li>Copy file .so vào thư mục trên</li>
+<li>Cấp quyền 755 cho file</li>
+<li>Khởi động lại game</li>
+</ol>
+
+<h3 style="color:#ff00ff;margin-top:15px;">🍎 CÀI FILE IOS</h3>
+<ol>
+<li>Dùng AltStore hoặc Sideloadly để cài đặt</li>
+<li>Kết nối thiết bị với máy tính</li>
+<li>Drag file .ipa vào AltStore</li>
+<li>Nhập Apple ID để ký</li>
+<li>Chạy game và tận hưởng</li>
+</ol>
+
+<h3 style="color:#ff00ff;margin-top:15px;">🎓 HỌC VIÊN LÀM FILE</h3>
+<ol>
+<li>Nhận form </li>
+<li>code vip</li>
+<li>Học cách build file </li>
+<li>Học cách cài</li>
+<li>cách tạo</li>
+<li>Xem video hướng dẫn chi tiết</li>
+</ol>
+</div>
+
+<div class="warning">
+<strong>⚠️ LƯU Ý QUAN TRỌNG</strong><br>
+- Yêu cầu root (Android) hoặc AltStore (IOS)<br>
+- Tắt các ứng dụng diệt virus trước khi cài<br>
+- Không bảo hành nếu acc bị ban do sử dụng bất cẩn<br>
+- Đọc kỹ hướng dẫn trước khi sử dụng
+</div>
+</div>
+
+</div>
+<footer>
+<a href="https://zalo.me/0378607189">📱 Zalo: 0378607189</a>
+<a href="#">📘 Facebook: Trung Ta</a>
+<p style="color:#666;margin-top:10px;">© 2025 Shop Wizard - Uy tín hàng đầu</p>
+</footer>
+</body>
+</html>
